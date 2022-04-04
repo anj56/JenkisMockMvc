@@ -1,7 +1,7 @@
 pipeline {
 agent any
    environment{
-M2_HOME=' G:\apache-maven-3.8.5'
+M2_HOME=' G:\\apache-maven-3.8.5'
 PATH = "${M2_HOME}\\bin;${env.PATH};C:\\Windows\\System32;"
 }                                      
 
