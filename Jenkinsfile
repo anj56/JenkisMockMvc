@@ -22,5 +22,10 @@ steps {
 jacoco()
 }
 }
+   stage('Build Docker stage') {
+steps {
+bat 'docker build -t anjali/test .'
+}
+}
 }
 }
